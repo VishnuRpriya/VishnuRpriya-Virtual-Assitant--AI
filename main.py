@@ -27,7 +27,7 @@ engine.setProperty('voice',voices[0].id) #chaining to female voice give 1
 
 # py text to speech function
 def talk(text):
-    engine.say(text)
+    engine.say(text) 
     engine.runAndWait();
 
 #wishin function as soon as the AI runs
